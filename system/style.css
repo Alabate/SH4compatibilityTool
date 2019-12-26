@@ -1,0 +1,47 @@
+body{margin:0;padding:0;background-color:#f6f6f6;font-family:sans-serif;min-width:950px;}
+/* header bar : title and links */
+#headerBar{text-align:center;background-color:#ffffff;border:solid #a7d7f9 1px;width:95%;margin:15px auto;height:40px; box-shadow: 2px 2px 15px #d0d0d0;}
+	#headerBar div{margin:0;padding:0;color:red;}
+	#headerBar .Cell{height:40px;display:inline-block}
+		#headerBar .CellR{border-left:solid #a7d7f9 1px;float:right;}
+		#headerBar .CellL{border-right:solid #a7d7f9 1px;float:left;}
+	#headerBar a{color:#000;text-decoration:none;}
+		#headerBar a:hover{background-color:#ecfbfe;color:#120447; }
+		#headerBar .PClink:hover{color:#be1717;background-color:#fce9e9;border:solid #be1717 1px;margin:-1px -1px 0 0;}
+		#headerBar .casiopeiaLink:hover{color:#4283c6;background-color:#e2eef6;border:solid #4283c6 1px;margin:-1px -1px 0 0;}
+	#headerBar h1{font-weight:normal;font-family:sans-serif;font-size:26px;margin:5px 10px 0 10px;}
+	#headerBar strong{display:inline-block;font-weight:normal;font-size:18px;margin:9px 10px 0 10px;}
+/* loadbox to get file to load  */
+	#loadBox{display:block;width:40%;margin: 0 auto;padding:10px;box-shadow: 2px 2px 15px #d0d0d0;background-color:white;border:solid #a7d7f9 1px;text-align:center;}
+		#loadBox a{text-decoration:none;color:#0d90d4;margin-top:5px;display:inline-block;}
+		#loadBox h4{margin:0;padding:0;}
+			#loadBox a:hover{text-decoration:underline;}
+/* errorBox error msg box  */
+	#errorBox{overflow:hidden;display:none;width:90%;margin: 30px auto;padding:10px;box-shadow: 2px 2px 15px #d0d0d0;background-color:white;border:solid #a7d7f9 1px;text-align:center;}
+		#errorBox h3{margin:0;padding:0;font-size:1.2em;color:red;font-weight:normal;}
+		#errorBox a{text-decoration:none;color:#0d90d4;margin-top:5px;display:block;}
+			#errorBox a:hover{text-decoration:underline;}
+/* settings Bar : name format and eventual password */
+#settingsBar{width:95%;height:25px;margin:auto;text-align:center;margin-bottom:15px;}
+	#settingsBar .title{float:left;}
+	#settingsBar .format{float:right;}
+	#settingsBar .centralInput{display:none;}
+/* #eactmaker the textarea and menu in top and in bottom */
+#eactmaker{width:95%;margin: 0 auto;padding:0;box-shadow: 2px 2px 15px #d0d0d0;}
+	#eactmaker .buttons{background-color:white;height:33px;width:100%;border:solid #a7d7f9 1px;margin:0 auto;padding:0;}
+		#eactmaker .buttons.top{display:none;}
+		#eactmaker .buttons a{float:left;border-right:solid 1px #dddddd;margin:0;height:26px;padding:7px 15px 0 15px;text-decoration:none;color:#7b7b7b;display:none;}
+		#eactmaker .buttons a.img{padding:0 10px;height:33px;}/*comportement of the link for img */
+		#eactmaker .buttons a.img div{display:inline-block;height:33px;}
+		#eactmaker .buttons a:hover{color:#0d90d4;background-color:#ecfbfe;}
+		#eactmaker .buttons .right{border-left:1px solid #dddddd;border-right:0;float:right;}
+		#eactmaker .buttons input{border-style:solid;border-width:0 1px 0 1;background:none;display:inline-block;margin:0;height:33px;padding:0px 15px 0 15px;color:#7b7b7b;font-size:1.0em;font-weight:bold;cursor:pointer;}
+		#eactmaker .buttons input:hover{color:#0d90d4;background-color:#ecfbfe;}
+	#eactmaker #charsTab{background-color:#f3fdfe;width:100%;border:solid #a7d7f9 1px;margin:-1px auto 0 auto;padding:0;display:none;}
+		#eactmaker #charsTab div{margin:10px auto;position:relative;}
+			#eactmaker #charsTab a{position:absolute;display:block;width:23px;height:29px;}
+			#eactmaker #charsTab a:hover{border:solid #a7d7f9 1px;}
+	#eactmaker textarea{vertical-align: middle;width:100%;font-size:1.3em;border:solid #a7d7f9 1px;padding:0;max-width:100%;min-width:100%;min-height:30px;margin:-1px 0 -1px 0;}
+#footer{font-size:10px;color:grey;float:right;width:100%;text-align:center;margin-top:15px;}
+	#footer a{color:grey;}
+	#footer a:hover{text-decoration:none;}
